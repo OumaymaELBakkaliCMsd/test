@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Découvrez CMsd, studio créatif qui imagine des identités et des expériences digitales mémorables."
+    />
+    <title>CMsd — Studio créatif & digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#accueil" aria-label="CMsd — Accueil">
+        <span>CM</span><span class="logo-accent">sd</span><span class="logo-dot">.</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="#expertise">Expertise</a>
+        <a href="#approche">Approche</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="button button-small" href="mailto:bonjour@cmsd.fr">Parlons-nous <span>↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="accueil">
+        <div class="eyebrow"><span></span> Studio créatif & digital</div>
+        <h1>Des idées qui<br /><em>font la différence.</em></h1>
+        <div class="hero-bottom">
+          <p>
+            CMsd accompagne les marques ambitieuses pour créer des identités fortes,
+            des expériences digitales utiles et des histoires qui restent.
+          </p>
+          <a class="round-link" href="#expertise" aria-label="Découvrir notre expertise">
+            <span>Découvrir</span>
+            <strong>↓</strong>
+          </a>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="sphere sphere-one"></div>
+          <div class="sphere sphere-two"></div>
+          <div class="art-label label-one">STRATÉGIE</div>
+          <div class="art-label label-two">CRÉATIVITÉ</div>
+        </div>
+      </section>
+
+      <section class="services" id="expertise">
+        <div class="section-heading">
+          <p class="section-index">01 — Expertise</p>
+          <h2>Nous donnons forme<br />à vos ambitions.</h2>
+          <p class="section-intro">
+            Une approche globale, de la première intuition jusqu'à l'expérience finale.
+          </p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card service-card-dark">
+            <span class="card-number">01</span>
+            <div class="card-icon">✦</div>
+            <h3>Identité<br />de marque</h3>
+            <p>Positionnement, plateforme de marque, identité visuelle et direction artistique.</p>
+            <a href="#contact" aria-label="En savoir plus sur l'identité de marque">En savoir plus <span>↗</span></a>
+          </article>
+
+          <article class="service-card service-card-blue">
+            <span class="card-number">02</span>
+            <div class="card-icon card-icon-lines"><i></i><i></i><i></i></div>
+            <h3>Expérience<br />digitale</h3>
+            <p>Sites web, interfaces et produits digitaux pensés pour être simples et désirables.</p>
+            <a href="#contact" aria-label="En savoir plus sur l'expérience digitale">En savoir plus <span>↗</span></a>
+          </article>
+
+          <article class="service-card service-card-light">
+            <span class="card-number">03</span>
+            <div class="card-icon">◎</div>
+            <h3>Contenu &<br />activation</h3>
+            <p>Campagnes, contenus et prises de parole qui construisent une relation durable.</p>
+            <a href="#contact" aria-label="En savoir plus sur le contenu et l'activation">En savoir plus <span>↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="approach" id="approche">
+        <p class="section-index">02 — Notre approche</p>
+        <blockquote>« Écouter juste.<br />Penser clair.<br /><em>Créer fort.</em> »</blockquote>
+        <div class="approach-copy">
+          <p>
+            Nous réunissons stratégie, design et technologie autour d'un objectif simple :
+            rendre votre marque plus lisible, plus singulière et plus vivante.
+          </p>
+          <div class="stats">
+            <div><strong>12+</strong><span>années d'expérience</span></div>
+            <div><strong>80</strong><span>projets accompagnés</span></div>
+            <div><strong>100%</strong><span>d'engagement</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div>
+          <p class="section-index">03 — Un projet ?</p>
+          <h2>Construisons quelque<br />chose de <em>remarquable.</em></h2>
+        </div>
+        <a class="contact-link" href="mailto:bonjour@cmsd.fr">
+          <span>bonjour@cmsd.fr</span><strong>↗</strong>
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <a class="logo footer-logo" href="#accueil"><span>CM</span><span class="logo-accent">sd</span><span class="logo-dot">.</span></a>
+      <p>© <span id="year"></span> CMsd. Tous droits réservés.</p>
+      <div><a href="#">LinkedIn</a><a href="#">Instagram</a></div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
